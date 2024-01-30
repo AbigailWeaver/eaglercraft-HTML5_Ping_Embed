@@ -719,6 +719,14 @@ class ServerEmbed {
 		}
 		this.iconContext.putImageData(dat, 0, 0);
 	}
-	
+
+	<script type="text/javascript" src="embed.min.js"></script>
+	<div id="embed"></div>
+	ServerEmbed
+	var embed = new ServerEmbed(document.getElementById("embed"), "500px");
+	ping
+	embed.ping("127.0.0.1:25565");
+
+
 }
 
